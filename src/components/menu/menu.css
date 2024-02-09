@@ -1,0 +1,38 @@
+.menu {
+}
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.menuTitle {
+  font-style: 12px;
+  font-weight: 200;
+  color: #ddd;
+  text-transform: uppercase;
+}
+
+.menulistItem {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.menulistItem:hover {
+  background-color: #384256;
+}
+
+.menulistItemImg {
+  width: 25px;
+  height: 25px;
+}
+
+.menulistItemTitle {
+  font-size: 14px;
+}
